@@ -59,6 +59,7 @@ footer {
 
 h1 {
   font-size: 30px;
+  background-color: #38C736;
   font-variant: small-caps;
 }
 
@@ -100,10 +101,16 @@ h3 {
   width: 33.33%;
 }
 
-.elements:after {
+.group:before,
+.group:after {
   content: "";
   display: table;
+}
+.group:after {
   clear: both;
+}
+.group {
+  *zoom: 1;
 }
 
 .voting-logo {
