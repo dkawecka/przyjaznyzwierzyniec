@@ -39,10 +39,14 @@ time, mark, audio, video {
 }
 
 body {
-  font-family: 'Robot', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 16px;
   margin: 0 auto;
   width: 960px;
+}
+
+header {
+  margin: 60px 0;
 }
 
 footer {
@@ -59,7 +63,6 @@ footer {
 
 h1 {
   font-size: 30px;
-  background-color: #38C736;
   font-variant: small-caps;
 }
 
@@ -68,7 +71,6 @@ h1 {
   text-align: center;
   vertical-align: bottom;
 }
-
 
 h3 {
   font-size: 20px;
@@ -84,9 +86,32 @@ h3 {
 
 /*
   ========================================
-  CV content
+  Site content
   ========================================
 */
+
+.menu-bar {
+  background-color: #38C736;
+  top: 0;
+  left: 0;
+  position: fixed;
+  right: 0;
+  padding: 0 160px;
+  height: 40px;
+}
+
+.menu-content {
+  list-style-type: none;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+.menu-content li {
+  font-size: 20px;
+  display: inline;
+  padding-right: 30px;
+  font-variant: small-caps;
+}
 
 .visualisation {
   margin: 20px auto;
