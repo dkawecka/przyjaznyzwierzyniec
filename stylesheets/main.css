@@ -90,25 +90,24 @@ h3 {
   ========================================
 */
 
-.menu-bar {
-  background-color: #38C736;
+nav {
+  position: fixed;
   top: 0;
   left: 0;
-  position: fixed;
   right: 0;
-  padding: 0 160px;
-  height: 40px;
+  background-color: #38C736;
   z-index: 1;
 }
 
-.menu-content {
+.menu {
   list-style-type: none;
+  width: 960px;
+  margin: 0 auto;
   padding-left: 0;
-  margin-left: 0;
   line-height: 40px;
 }
 
-.menu-content li {
+.menu li {
   font-size: 20px;
   display: inline;
   padding-right: 30px;
@@ -120,7 +119,7 @@ h3 {
 }
 
 .visualisation-image {
-  width: 960px;
+  width: 100%;
 }
 
 .elements {
