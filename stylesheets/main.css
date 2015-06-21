@@ -46,7 +46,7 @@ body {
 }
 
 header {
-  margin: 60px 0;
+  margin: 60px 0 20px 0;
 }
 
 footer {
@@ -63,24 +63,24 @@ footer {
 
 h1 {
   font-size: 30px;
-  font-variant: small-caps;
+  text-transform: uppercase;
 }
 
+h2 {
+  font-size: 26px;
+  text-transform: uppercase;
+}
 
 .elements p {
+  margin: 10px 0;
   text-align: center;
-  vertical-align: bottom;
 }
 
 h3 {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 300;
-  padding: 20px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  line-height: 20px;
-  border-radius: 10px;
-  width: auto;
+  line-height: 18px;
+  text-transform: uppercase;
 }
 
 
@@ -110,7 +110,6 @@ nav {
 .menu li {
   font-size: 20px;
   display: inline;
-  padding-right: 30px;
   text-transform: uppercase;
 }
 
@@ -118,7 +117,7 @@ nav {
   margin: 20px auto;
 }
 
-.visualisation-image {
+.visualisation img {
   width: 100%;
 }
 
@@ -127,45 +126,52 @@ nav {
   width: 33.33%;
 }
 
-.group:before,
-.group:after {
+.clear:before,
+.clear:after {
   content: "";
   display: table;
 }
-.group:after {
+
+.clear:after {
   clear: both;
 }
-.group {
+
+.clear {
   *zoom: 1;
 }
 
-.voting-logo {
+.project .clear {
+  margin-bottom: 40px;
+}
+
+
+.voting h2 {
+  height: 40px;
+  line-height: 40px;
+  background-color: #38C736;
+}
+
+.voting-online {
   float: left;
-  width: 20%;
-  padding: 20 0;
+  width: 30%;
+  padding: 20px 0;
 }
 
-.voting-logo img {
-  width: 150px;
-  height: 150px;
-}
-
-.voting-rules {
-  float: left;
-  width: 80%;
-  padding: 20 0;
-}
-
-.voting-rules img {
-  width: 720px;
-}
-
-.maps {
-  margin-top: 20px;
+.voting-onsite {
+  float: right;
+  width: 70%;
+  padding: 20px 0;
 }
 
 a {
   text-decoration: none;
+}
+.voting-online a {
+  font-size: 18px;
+  background: #38C736;
+  padding: 10px;
+  margin-top: 20px;
+  display: inline-block;
 }
 
 i {
