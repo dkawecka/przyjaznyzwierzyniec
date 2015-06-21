@@ -145,11 +145,13 @@ nav {
   *zoom: 1;
 }
 
-.project .clear {
+.project_13 .clear,
+.project_skwerek .clear{
   margin-bottom: 40px;
 }
 
-.voting h2 {
+.voting h2,
+.skwerek-aims h2 {
   height: 40px;
   line-height: 40px;
   background-color: #38C736;
@@ -183,13 +185,44 @@ nav {
 
 a {
   text-decoration: none;
+  color: black;
 }
 
 i {
   width: 20px;
 }
 
-li {
+nav ul,
+.elements ul,
+.voting-onsite ul,
+.skwerek-aims ul {
   list-style-type: none;
 }
 
+.skwerek-plan {
+  float: left;
+  width: 60%;
+}
+
+.skwerek-plan img {
+  width: 100%;
+}
+
+.skwerek-legend {
+  float: left;
+  width: 40%;
+  padding-left: 20px;
+}
+
+.skwerek-legend p {
+  font-weight: 600;
+}
+
+.skwerek-legend ol {
+  margin-left: 15px;
+}
+
+.skwerek-legend li,
+.skwerek-aims li {
+  padding-top: 5px;
+}
