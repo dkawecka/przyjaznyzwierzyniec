@@ -81,8 +81,12 @@ h3 {
   font-weight: 300;
   line-height: 18px;
   text-transform: uppercase;
+  margin-bottom: 20px;
 }
 
+strong {
+  font-weight: 600;
+}
 
 /*
   ========================================
@@ -111,6 +115,7 @@ nav {
   font-size: 20px;
   display: inline;
   text-transform: uppercase;
+  padding-right: 30px;
 }
 
 .visualisation {
@@ -144,7 +149,6 @@ nav {
   margin-bottom: 40px;
 }
 
-
 .voting h2 {
   height: 40px;
   line-height: 40px;
@@ -163,15 +167,22 @@ nav {
   padding: 20px 0;
 }
 
-a {
-  text-decoration: none;
-}
 .voting-online a {
   font-size: 18px;
   background: #38C736;
-  padding: 10px;
-  margin-top: 20px;
+  padding: 20px 40px;
+  transition: all .5s;
+  color: black;
   display: inline-block;
+}
+
+.voting-online a:hover {
+  background: #078F07;
+  color: white;
+}
+
+a {
+  text-decoration: none;
 }
 
 i {
@@ -179,6 +190,6 @@ i {
 }
 
 li {
-    list-style-type: none;
+  list-style-type: none;
 }
 
