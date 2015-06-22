@@ -56,8 +56,11 @@ footer {
   border-top: 1px solid #38C736;
 }
 
-.kim {
-  margin-top: 150px;
+footer.sticky {
+  position: fixed;
+  bottom: 0;
+  width: inherit;
+  z-index: 1;
 }
 
 /*
