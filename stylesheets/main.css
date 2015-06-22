@@ -56,6 +56,9 @@ footer {
   border-top: 1px solid #38C736;
 }
 
+.kim {
+  margin-top: 150px;
+}
 
 /*
   ========================================
@@ -201,8 +204,28 @@ i {
 nav ul,
 .elements ul,
 .voting-onsite ul,
-.skwerek-aims-content ul {
+.skwerek-aims-content ul,
+.about-us-completed ul {
   list-style-type: none;
+}
+
+.about-us-completed {
+  float: left;
+  width: 60%;
+}
+
+.about-us-completed ul {
+  padding-left: 30px;
+  padding-top: 10px;
+}
+
+.about-us-logo {
+  float: right;
+  width: 40%;
+}
+
+.about-us-logo img {
+  width: 200px;
 }
 
 .skwerek-plan {
@@ -229,7 +252,8 @@ nav ul,
 }
 
 .skwerek-legend li,
-.skwerek-aims-content li {
+.skwerek-aims-content li,
+.about-us-completed li {
   padding-top: 7px;
 }
 
