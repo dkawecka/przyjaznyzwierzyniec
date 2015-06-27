@@ -67,22 +67,6 @@ body {
   width: 960px;
 }
 
-@media (max-width: 960px) {
-  body {
-    width: 100%;
-  }
-}
-
-@media (max-width: 960px) {
-  .menu {
-    width: 100%;
-  }
-  .voting-online a {
-  font-size: 12px;
-  padding: 1.5% 3%;
-  }
-}
-
 header {
   margin: 60px 0 20px 0;
 }
@@ -375,4 +359,18 @@ nav ul,
 .breadcrumb li:nth-child(4) a       { background:        #93F993;}
 .breadcrumb li:nth-child(4) a:after { border-left-color: #93F993;}
 
+@media (max-width: 960px) {
+  body {
+    width: 100%;
+  }
+}
 
+@media (max-width: 960px) {
+  .menu {
+    width: 100%;
+  }
+  .voting-online a {
+  font-size: 12px;
+  padding: 1.5% 3%;
+  }
+}
