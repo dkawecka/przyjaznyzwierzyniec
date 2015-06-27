@@ -169,7 +169,6 @@ nav {
 .clear {
   *zoom: 1;
   width: auto;
-  max-width: 1200px;
 }
 
 .elements {
@@ -363,14 +362,39 @@ nav ul,
   body {
     width: 100%;
   }
-}
 
-@media (max-width: 960px) {
   .menu {
     width: 100%;
   }
+  .voting {
+    width: 100%;
+  }
   .voting-online a {
-  font-size: 12px;
-  padding: 1.5% 3%;
+
+    padding: 5% 15%;
+  }
+}
+
+@media (max-width: 457px) {
+  header {
+    margin: 60px 0 20px 0;
+  }
+
+  h1 {
+    font-size: 26px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+
+  .menu li {
+    font-size: 18px;
+  }
+  .voting-online {
+    float: none;
+  }
+  .voting-onsite {
+    float: none;
+    margin-top: 20px;
   }
 }
