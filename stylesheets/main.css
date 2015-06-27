@@ -22,13 +22,28 @@ time, mark, audio, video {
   font: inherit;
   vertical-align: baseline;
 }
-/* HTML5 display-role reset for older browsers */
 
-/*
-  ========================================
-  Grid
-  ========================================
-*/
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
 
 *,
 *:before,
@@ -37,6 +52,13 @@ time, mark, audio, video {
      -moz-box-sizing: border-box;
           box-sizing: border-box;
 }
+
+/*
+  ========================================
+  Grid
+  ========================================
+*/
+
 
 body {
   font-family: 'Dosis', sans-serif;
@@ -54,6 +76,10 @@ body {
 @media (max-width: 960px) {
   .menu {
     width: 100%;
+  }
+  .voting-online a {
+  font-size: 12px;
+  padding: 1.5% 3%;
   }
 }
 
@@ -125,7 +151,6 @@ nav {
 }
 
 .menu {
-  list-style-type: none;
   width: 960px;
   margin: 0 auto;
   padding-left: 0;
@@ -147,11 +172,6 @@ nav {
   width: 100%;
 }
 
-.elements {
-  float: left;
-  width: 33.33%;
-}
-
 .clear:before,
 .clear:after {
   content: "";
@@ -164,6 +184,13 @@ nav {
 
 .clear {
   *zoom: 1;
+  width: auto;
+  max-width: 1200px;
+}
+
+.elements {
+  float: left;
+  width: 33.33%;
 }
 
 .project_13 .clear,
@@ -291,7 +318,6 @@ nav ul,
 }
 
 .breadcrumb {
-  list-style: none;
   overflow: hidden;
   font: 18px;
 }
