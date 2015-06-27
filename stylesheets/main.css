@@ -273,7 +273,7 @@ nav ul,
 }
 
 .skwerek-legend ol {
-  margin-left: 15px;
+  padding-left: 15px;
 }
 
 .skwerek-legend li,
@@ -362,6 +362,9 @@ nav ul,
   body {
     width: 100%;
   }
+  footer.sticky {
+    position: relative;
+  }
 
   .menu {
     width: 100%;
@@ -370,7 +373,6 @@ nav ul,
     width: 100%;
   }
   .voting-online a {
-
     padding: 5% 15%;
   }
 }
@@ -379,6 +381,9 @@ nav ul,
   header {
     margin: 60px 0 20px 0;
   }
+  footer.sticky {
+    position: relative;
+  }
 
   h1 {
     font-size: 26px;
@@ -386,15 +391,44 @@ nav ul,
   h2 {
     font-size: 20px;
   }
-
+  .menu {
+    line-height: 20px;
+    padding: 5px 0;
+  }
   .menu li {
     font-size: 18px;
+    padding-right: 5px;
   }
-  .voting-online {
+  .voting-online,
+  .voting-onsite,
+  .about-us-completed,
+  .skwerek-plan,
+  .skwerek-aims-content,
+  .skwerek-statute {
     float: none;
+    width: 100%;
   }
-  .voting-onsite {
-    float: none;
+  .voting-online a {
+    font-size: 16px;
+  }
+  .voting-onsite,
+  .about-us-descrpition,
+  .skwerek-aims-content,
+  .join-us {
+    padding: 0 5px;
+  }
+  .voting-onsite h3,
+  .skwerek-legend {
     margin-top: 20px;
+  }
+  .voting-onsite,
+  .skwerek-legend {
+    width: 90%
+  }
+  .skwerek-statute {
+    margin: 20px 5px;
+  }
+  .about-us-logo {
+    display: none;
   }
 }
