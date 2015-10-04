@@ -85,6 +85,13 @@ footer.sticky {
   z-index: 1;
 }
 
+footer.sticky-kim {
+  position: relative;
+  bottom: 0;
+  width: inherit;
+  z-index: 1;
+}
+
 /*
   ========================================
   Typography
@@ -113,6 +120,12 @@ h3 {
   line-height: 18px;
   text-transform: uppercase;
   margin-bottom: 20px;
+}
+
+.join-us h3 {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 24px;
 }
 
 strong {
@@ -426,7 +439,7 @@ nav ul,
     width: 90%
   }
   .skwerek-statute {
-    margin: 20px 5px;
+    margin: 20px auto;
   }
   .about-us-logo {
     display: none;
